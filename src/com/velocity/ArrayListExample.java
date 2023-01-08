@@ -12,9 +12,10 @@ public class ArrayListExample {
 		list.add("Tushar");
 		list.add("Kavita");
 		list.add("Abhishek");
+		System.out.println(list);
 		for(String s:list) {
 			
-			System.out.println();
+			System.out.println(s);
 		}
 	}
 
